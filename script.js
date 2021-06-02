@@ -1,30 +1,33 @@
-let apiQuotes = [];
+// let apiQuotes = [];
 
-const newQuote = () => {
+function newQuote() {
 
-    const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
+    const quote = localQuotes[Math.floor(Math.random() * localQuotes.length)];
     console.log(quote)
 }
 
-async function getQuotes() {
+// async function getQuotes() {
 
-    const apiUrl = 'https://type.fit/api/quotes'
+//     const apiUrl = 'https://type.fit/api/quotes'
 
-    try {
+//     try {
 
-        const response = await fetch(apiUrl);
-        apiQuotes = await response.json();
-        // console.table(apiQuotes)
-        newQuote();
+//         const response = await fetch(apiUrl);
+//         apiQuotes = await response.json();
+//         // console.table(apiQuotes)
+//         newQuote();
 
-    } catch (error) {
-
-
-        console.table(error)
+//     } catch (error) {
 
 
-    }
+//         console.table(error)
 
-}
 
-getQuotes()
+//     }
+
+// }
+
+
+// getQuotes()
+
+newQuote()
