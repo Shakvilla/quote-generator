@@ -14,6 +14,7 @@ function newQuote() {
     quoteText.textContent = quote.text
 
 }
+newQuote()
 
 // async function getQuotes() {
 
@@ -39,4 +40,3 @@ function newQuote() {
 
 // getQuotes()
 
-newQuote()
