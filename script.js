@@ -5,7 +5,7 @@ const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader')
 
-let apiQuotes = [];
+// let apiQuotes = [];
 
 //show loader
 function loading() {
@@ -24,7 +24,7 @@ function complete() {
 function newQuote() {
     loading();
 
-    const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
+    const quote = localQuotes[Math.floor(Math.random() * localQuotes.length)];
 
     (!quote.author) ? authorText.textContent = "Unknown" : authorText.textContent = quote.author;
 
