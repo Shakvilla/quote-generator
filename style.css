@@ -60,6 +60,9 @@ font-weight: 700;
   justify-content: space-between;
   display: flex;
 }
+.left-side-button{
+  margin-left: 5px;
+}
 
 button{
 
@@ -86,13 +89,13 @@ button:active{
 
 }
 
-.twitter-button:hover{
+.social-share:hover{
 
   color: #38a1f3
 
 }
 
-.fa-twitter{
+.fab{
 
   font-size: 1.5rem;
 }

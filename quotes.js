@@ -19,9 +19,19 @@ const localQuotes = [
     "text": "Fate is in your hands and no one elses",
     "author": "Byron Pulsifer"
   },
+
+  {
+    "text": "When you sleep with an itchy anus, then expect to wake up with smelly fingures",
+    "author": "Dagomba Proverb"
+  },
   {
     "text": "Be the chief but never the lord.",
     "author": "Lao Tzu"
+  },
+
+  {
+    "text": "If you see a pregnant goat in the market, there are pregnant troubles at home.",
+    "author": "Dagomba Proverb"
   },
   {
     "text": "Nothing happens unless first we dream.",

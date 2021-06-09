@@ -2,6 +2,7 @@ const quoteContainer = document.getElementById('quote-container');
 const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
 const twitterBtn = document.getElementById('twitter');
+const facebookBtn = document.getElementById('facebook');
 const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader')
 
@@ -42,10 +43,21 @@ function tweetQuote() {
     window.open(twitterUrl, '_blank')
 }
 
+function facebookQuote() {
+    // const facebookUrl = `https://www.facebook.com/dialog/share?
+    // text=${quoteText.textContent} - ${authorText.textContent}`;
+    facebookUrl = `https://facebook.com/sharer.php?display=popup&s=${quoteText.textContent} - ${authorText.textContent} ;`
+    options = 'toolbar=0,status=0,resizable=1,width=626,height=436';
+    window.open(facebookUrl, 'sharer', options);
+}
+
 
 //Add Event Listeners
 newQuoteBtn.addEventListener('click', newQuote);
+facebookBtn.addEventListener('click', facebookQuote);
+
 twitterBtn.addEventListener('click', tweetQuote);
+
 
 newQuote()
 
