@@ -34,6 +34,10 @@ const localQuotes = [
     "author": "Dagomba Proverb"
   },
   {
+    "text": "When you are extremely hungry, you do not ask whats been prepared again.",
+    "author": "Dagomba Proverb"
+  },
+  {
     "text": "Nothing happens unless first we dream.",
     "author": "Carl Sandburg"
   },
